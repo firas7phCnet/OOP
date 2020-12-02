@@ -1,0 +1,43 @@
+class student
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+public class Student
+{
+    private int ID;
+    private String name;
+    private int level;
+    /* creating new student by initilizing
+       *id is unique number for student
+       *name of the student
+       *level of the student
+    */
+    public Student(int ID,String name,int level)
+    {
+        this.ID = ID;
+        this.name=name;
+        this.level=level;
+        
+    }
+    //sitting new level for student
+    public void setLevel(int level)
+    {
+        this.level=level;
+    }
+     // sitting getters for all fields
+     //return id of student
+     public int getID()
+     {
+         return ID;
+     }
+     //return name of student
+     public String getName()
+     {
+         return name;
+     }
+     //return level of student
+     public int getLevel()
+     {
+         return level;
+     }
+     
+    
+}

@@ -1,0 +1,36 @@
+class teaching staff
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+public class teachingStaff
+{
+    private int ID;
+    private String name;
+    private double salary;
+    
+    // creating new doctor object
+    public teachingStaff(int ID, String name, double salary)
+    {
+        this.ID=ID;
+        this.name=name;
+        this.salary=salary;
+    }
+    //return the id for doctor
+    public int getId()
+    {
+        return ID;
+    }
+    //return doctor name
+    public String getName()
+    {
+       return name; 
+    }
+    //return the salary of doctor
+    public double getSalary()
+    {
+         return salary;
+    }
+    // sitting the salary 
+    public void setSalary(double salary)
+    {
+        this.salary=salary;
+    }
+}
